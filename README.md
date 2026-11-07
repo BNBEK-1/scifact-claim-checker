@@ -1,5 +1,10 @@
 # SciFact Scientific Claim Checker
 
+![SciFact Claim Checker UI preview](ui-preview.svg)
+
+*Static preview of the app's initial Streamlit screen.*
+
+
 A research demo for checking biomedical claims against the SciFact abstract collection. It retrieves candidate abstracts with BM25, dense sentence embeddings, or hybrid rank fusion, then compares the claim with abstract sentences using a pretrained natural language inference model. If evidence scores do not clear the selected threshold, it abstains.
 
 This is a small benchmark prototype, not a general-purpose fact checker and not medical advice.
