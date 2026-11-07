@@ -1,0 +1,9 @@
+__pycache__/
+.venv/
+.venv-check/
+venv/
+data/
+.cache/
+.streamlit/
+reports/
+*.py[cod]
